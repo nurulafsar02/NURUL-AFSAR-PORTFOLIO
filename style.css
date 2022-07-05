@@ -1,0 +1,106 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    display: flex;
+}
+h1{
+    font: 50px;
+}
+.orange-color{
+    color: orange;
+}
+
+.half-width{
+    width:50%;
+    padding: 4%;
+}
+.half-width img{
+    width: 100%;
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.half-width img{
+    width: 100%;
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+#full-stack {
+    border-left: 7px solid tomato;
+}
+#baby-web{
+    border-left: 7px solid blue;
+
+}
+.experience-area div {
+    box-shadow: 5px 7px 40px grey;
+    height: 80%;
+}
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+h2 {
+    font-size: 40px;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+user agent stylesheet
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+footer p {
+    text-align: center;
+}
+p {
+    color: dimgray;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
