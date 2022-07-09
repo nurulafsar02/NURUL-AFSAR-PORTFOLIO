@@ -1,11 +1,75 @@
+*{
+	margin: 2;
+	padding: 0;
+}
+ul{
+	position: absolute;
+    top: 30px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	background: #000;
+	border-radius: 30px;
+	box-shadow: 0 0 0 5px rgb(19, 19, 19);
+	overflow: hidden;
+}
+ul li{
+	width: 150px;
+	list-style: none;
+}
+ul li a{
+	display: block;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .5s;
+}
+ul li.active a{
+	color: #000;
+}
+.slide{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 150px;
+	height: 100%;
+	background: tomato;
+	z-index: -1;
+	transition: .5s;
+	opacity: 0;
+}
+ul li:nth-child(1).active ~ .slide{
+	left: 0;
+	opacity: 1;
+}
+ul li:nth-child(2).active ~ .slide{
+	left: 150px;
+	opacity: 1;
+}
+ul li:nth-child(3).active ~ .slide{
+	left: 300px;
+	opacity: 1;
+}
+ul li:nth-child(4).active ~ .slide{
+	left: 450px;
+	opacity: 1;
+}
+ul li:nth-child(5).active ~ .slide{
+	left: 600px;
+	opacity: 1;
+}
 body{
-    
     font-family: 'Poppins', sans-serif;
 }
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
+
 section{
     display: flex;
 }
@@ -90,6 +154,15 @@ section {
 user agent stylesheet
 div {
     display: block;
+}
+.anchor-button-3{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin-left: 500px;
 }
 footer p {
     text-align: center;
