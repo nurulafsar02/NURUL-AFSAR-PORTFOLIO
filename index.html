@@ -11,31 +11,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="resposiv.css">
-
 </head>
 <body>
     <nav id="bg-col">
-        <ul>
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="https://github.com/nurulafsar02">Portfolio</a></li>
-            <li><a href="01780247802">Contact</a></li>
-            <li class="slide"></li>
-        </ul>
-        <script>
-            const ul = document.querySelector('ul');
-            const li = document.querySelectorAll('li');
-
-            li.forEach(el => {
-                el.addEventListener('click', () => {
-                    ul.querySelector('.active').classList.remove('active');
-
-                    el.classList.add('active');
-                });
-            });
-        </script>
-    </nav>
+    <ul>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="https://github.com/nurulafsar02">Portfolio</a></li>
+        <li><a href="01780247802">Contact</a></li>
+        <li class="slide"></li>
+    </ul>
+</nav>
+    <main>
     <section class="top-banner">
         <div class="half-width">
             <h1>Welcome to </h1>
@@ -82,6 +70,7 @@
         </div>
     </section>
     <a class="anchor-button-3" href="Resume Of Moshin">DOWNLOAD MY RESUME AND READ IT</a>
+  </main>
 </body>
 <footer>
     <p>© Nurul Afsar 2022-2050,A Programming Hero Student.</p>
